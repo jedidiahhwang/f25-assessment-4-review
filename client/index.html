@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+
+    <!-- Let's create an input box and submit button for our POST -->
+    <div>
+      <h2>POST</h2>
+      <input id="nameInput" type="text" placeholder="Input name"/>
+      <button id="nameButton">Submit Name</button>
+    </div>
+
+    <!-- Let's create an input box and submit button for PUT -->
+    <div>
+      <h2>PUT</h2>
+      <select id="indexSelect">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+      <input id="newNameInput" type="text" placeholder="Input new name"/>
+      <button id="indexButton">Submit Index</button>
+    </div>
+
+    <!-- Let's create a dropdown box to DELETE -->
+    <div>
+      <h2>DELETE</h2>
+      <select id="indexSelectDelete">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+      <button id="deleteButton">Delete Name</button>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
